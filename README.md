@@ -27,6 +27,6 @@
 
 ### Клонирование и зависимости
 ```bash
-git clone [https://github.com/reeqwer-cmd/task-launcher-suite.git](https://github.com/reeqwer-cmd/task-launcher-suite.git)
-cd task-launcher-suite
+git clone [https://github.com/reeqwer-cmd/PomogatorUTP.git](https://github.com/reeqwer-cmd/PomogatorUTP.git)
+cd PomogatorUTP
 pip install -r requirements.txt
