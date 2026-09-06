@@ -1,11 +1,9 @@
 __pycache__/
 *.py[cod]
-*.spec
+.venv/
+venv/
 build/
 dist/
-my_config.json
+*.spec
 .vscode/
-.idea/
-Thumbs.db
-.DS_Store
-.venv/
+my_config.json
