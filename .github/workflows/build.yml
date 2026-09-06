@@ -15,7 +15,7 @@ jobs:
     - run: |
         pip install --upgrade pip
         pip install -r requirements.txt pyinstaller
-        pyinstaller --noconsole --onefile --collect-all ttkbootstrap configurator.py --name PomogatorUTP
+        pyinstaller --noconsole --onefile --collect-all ttkbootstrap pomogator_utp.py --name PomogatorUTP
     - uses: softprops/action-gh-release@v2
       with:
         files: dist/PomogatorUTP.exe
